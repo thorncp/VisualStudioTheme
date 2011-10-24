@@ -9,6 +9,11 @@
 			<PropertyValue name="Version">2</PropertyValue>
 			<FontsAndColors Version="2.0">
 				<Categories>
+					<Category GUID="{00CCEE86-3140-4E06-A65A-A92665A40D6F}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+						</Items>
+					</Category>
 					<Category GUID="{40660F54-80FA-4375-89A3-8D06AA954EBA}" FontIsDefault="Yes">
 						<Items>
 							<Item Name="Plain Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
@@ -91,6 +96,7 @@
 							<Item Name="Operator" Foreground="0x003378CC" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Other Error" Foreground="0x00FD97FF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Preprocessor Keyword" Foreground="0x003378CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Razor Code" Foreground="0x02000000" Background="0x002B2B2B" BoldFont="No"/>
 							<Item Name="Read-Only Region" Foreground="0x01000002" Background="0x002B2B2B" BoldFont="No"/>
 							<Item Name="Refactoring Background" Foreground="0x01000002" Background="0x00787878" BoldFont="No"/>
 							<Item Name="Refactoring Current Field" Foreground="0x01000000" Background="0x00787878" BoldFont="No"/>
@@ -113,10 +119,11 @@
 							<Item Name="ReSharper HTML ID attribute" Foreground="0x00BE9C6D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Hyperlink" Foreground="0x00BE9C6D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Interface Identifier" Foreground="0x003949DA" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper Late Bound Identifier" Foreground="0x0061C2A5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Late Bound Identifier" Foreground="0x006DC6FF" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x003949DA" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper LiveTemplates Inactive HotSpot" Foreground="0x008DF7FC" Background="0x00414141" BoldFont="No"/>
 							<Item Name="ReSharper Matched Brace" Foreground="0x02000000" Background="0x00787878" BoldFont="No"/>
+							<Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x007E645A" BoldFont="No"/>
 							<Item Name="ReSharper Method Identifier" Foreground="0x006DC6FF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x00DCE1E6" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Namespace Identifier" Foreground="0x00DCE1E6" Background="0x02000000" BoldFont="No"/>
@@ -139,6 +146,7 @@
 							<Item Name="Script Operator" Foreground="0x003378CC" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Script String" Foreground="0x0061C2A5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Smart Tag" Foreground="0x0062D3F9" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Spelling Error" Foreground="0x00FD97FF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL DML Marker" Foreground="0x0062D3F9" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL Operator" Foreground="0x003378CC" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL Stored Procedure" Foreground="0x00BE9C6D" Background="0x02000000" BoldFont="No"/>
@@ -151,7 +159,6 @@
 							<Item Name="Text" Foreground="0x00DCE1E6" Background="0x002B2B2B" BoldFont="No"/>
 							<Item Name="Track Changes after save" Foreground="0x02000000" Background="0x0077FF9F" BoldFont="No"/>
 							<Item Name="Track Changes before save" Foreground="0x02000000" Background="0x007279FE" BoldFont="No"/>
-							<Item Name="UnderlineClassificationFormatProPack" Foreground="0x00BE9C6D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="urlformat" Foreground="0x00BE9C6D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="User Types" Foreground="0x003949DA" Background="0x02000000" BoldFont="No"/>
 							<Item Name="User Types(Delegates)" Foreground="0x003949DA" Background="0x02000000" BoldFont="No"/>
@@ -197,6 +204,11 @@
 						<Items>
 							<Item Name="Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 						</Items>
 					</Category>
 				</Categories>
